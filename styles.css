@@ -216,16 +216,25 @@
   .tourism{
     background-color: rgb(34, 32, 32);
   }
-  .tourism-col{
+  .tourism-col+.tourism-col{
     grid-template-columns: 48% auto;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-top: 30px;
     margin-inline-start: 30px;
     margin-inline-end: 30px;
     text-align: left;
     background: #e9cbcb;
     padding: 25px;
     display: grid;
+  }
+  .tourism-col{
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+    text-align: left;
+    background: #e9cbcb;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 48% auto;
   }
   .tourism-col img{
     height: 350px;
